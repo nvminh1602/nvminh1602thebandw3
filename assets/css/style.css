@@ -146,8 +146,10 @@ html {
 #slider {
     position: relative;
     margin-top: 46px;
-    padding-top: 50%;
-    background: url(/Other/f88/theBand/assets/img/Slider/slider2.jpg) top center / cover no-repeat;
+}
+
+#slider .img-slider img{
+    width: 100%;
 }
 
 #slider .text-content {
