@@ -111,9 +111,12 @@ html {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     list-style: none;
+    min-width: 160px;
 }
 
-#nav .subnav li {}
+#nav .subnav a {
+    padding: 0 16px;
+}
 
 #nav li:hover .subnav {
     display: block;
